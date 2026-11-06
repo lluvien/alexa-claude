@@ -18,7 +18,7 @@ Tú: "Alexa, para"
 |---|---|
 | [lambda/index.js](lambda/index.js) | Lógica de la skill: recibe la pregunta, llama a Claude y limpia el texto para leerlo en voz alta |
 | [lambda/package.json](lambda/package.json) | Dependencias (`ask-sdk-core`, `@anthropic-ai/sdk`, `node-fetch`) |
-| [lambda/config.example.js](lambda/config.example.js) | Plantilla de configuración. Cópiala como `config.js` y pon tu API key |
+| [lambda/config.example.js](lambda/config.example.js) | Plantilla de configuración. Cópiala como `config.js` y pon tu API key, el modelo y, si quieres, un contexto sobre ti (`CONTEXTO`) |
 | [modelo-interaccion-es-US.json](modelo-interaccion-es-US.json) | Modelo de interacción: nombre de invocación y frases que reconoce |
 | [GUIA.md](GUIA.md) | Instalación paso a paso en la consola de Alexa |
 

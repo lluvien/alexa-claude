@@ -36,13 +36,13 @@ const client = new Anthropic({
   maxRetries: 0,
 });
 
-const SYSTEM_PROMPT = `Eres un asistente de voz que responde a través de un Echo Dot, en español de Perú.
+const SYSTEM_PROMPT = `Eres un asistente de voz que responde a través de un dispositivo Echo, en español.
 Tu respuesta se va a leer en voz alta, así que:
 - Responde en 1 a 3 frases cortas, salvo que te pidan más detalle.
 - No uses markdown, viñetas, tablas, emojis ni símbolos raros.
-- Escribe los números y unidades como se dicen (por ejemplo "doce milímetros", "tres mil soles").
+- Escribe los números y unidades como se dicen (por ejemplo "doce milímetros", "tres mil pesos").
 - Si no sabes algo o necesitas datos actuales que no tienes, dilo en una frase.
-El usuario trabaja en el área de inteligencia comercial de una empresa de aceros y metales.`;
+${config.CONTEXTO || ''}`.trim();
 
 const MAX_TURNOS = 6; // pares pregunta/respuesta que se recuerdan dentro de la sesión
 

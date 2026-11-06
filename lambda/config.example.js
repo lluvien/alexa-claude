@@ -7,4 +7,9 @@ module.exports = {
   // Puedes probar 'claude-sonnet-5-5' para respuestas más elaboradas,
   // pero en preguntas largas Alexa puede cortar por tiempo.
   MODELO: 'claude-haiku-5-5',
+
+  // Opcional: contexto sobre ti para que Claude adapte las respuestas
+  // (país, trabajo, temas frecuentes). Ejemplo:
+  // CONTEXTO: 'El usuario vive en Bogotá, Colombia, y es profesor de secundaria.',
+  CONTEXTO: '',
 };

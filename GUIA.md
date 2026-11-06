@@ -47,7 +47,7 @@ Dentro de una misma conversación Claude recuerda las últimas 6 preguntas. Al c
 
 ## Límites
 - **8 segundos:** Alexa corta si la respuesta tarda más. Por eso usa Claude Haiku, el modelo más rápido, con respuestas cortas. En `config.js` puedes cambiar a `claude-sonnet-5-5`, pero las preguntas largas pueden cortarse.
-- **No tiene tus datos:** no consulta Veritrade, SUNAT, correos ni archivos de la PC. Responde con conocimiento general. Conectarlo a tus datos es posible pero es un paso aparte.
+- **No tiene tus datos:** no consulta tus sistemas, correos ni archivos. Responde con conocimiento general. Conectarlo a tus datos es posible pero es un paso aparte.
 - **Sin internet en vivo:** no sabe precios de hoy ni noticias recientes.
 
 ## Si algo falla
