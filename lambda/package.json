@@ -1,0 +1,12 @@
+{
+  "name": "alexa-claude",
+  "version": "1.0.0",
+  "description": "Skill de Alexa que consulta a Claude",
+  "main": "index.js",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.86.0",
+    "node-fetch": "^2.7.0"
+  }
+}

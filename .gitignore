@@ -1,0 +1,9 @@
+# La API key real nunca se sube
+lambda/config.js
+.env
+
+# Dependencias y basura local
+node_modules/
+*.zip
+.DS_Store
+Thumbs.db
